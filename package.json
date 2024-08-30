@@ -11,11 +11,8 @@
     "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
-
   },
-  "homepage": "https://narendrayogi914.github.io/narendra-portfolio-3d"
-,
-
+  "homepage": "https://narendrayogi914.github.io/narendra-portfolio-3d",
   "dependencies": {
     "@emailjs/browser": "^4.4.1",
     "@react-three/drei": "^9.111.3",
@@ -24,6 +21,7 @@
     "maath": "^0.10.8",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
+    "react-responsive": "^10.0.0",
     "react-router-dom": "^6.26.1",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
