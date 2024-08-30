@@ -25,11 +25,11 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
-import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
-
+import Netflix from "./netflix.png";
+import Anydiscount from "./anydiscount.png";
+import PortFolio from "./portfolio.png";
 export {
   logo,
   backend,
@@ -56,7 +56,9 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
+  Netflix,
+  Anydiscount,
   jobit,
   tripguide,
+  PortFolio,
 };
