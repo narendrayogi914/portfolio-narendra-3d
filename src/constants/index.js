@@ -17,6 +17,7 @@ import {
   Netflix,
   Anydiscount,
   PortFolio,
+  mobileApp,
 } from "../assets";
 
 export const navLinks = [
@@ -41,8 +42,8 @@ const services = [
   },
 
   {
-    title: "Backend Developer",
-    icon: backend,
+    title: "Mobile App Developer ",
+    icon: mobileApp,
   },
 ];
 

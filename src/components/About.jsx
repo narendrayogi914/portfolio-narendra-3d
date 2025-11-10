@@ -46,11 +46,12 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled software developer with experience in Tailwind and
-        JavaScript, and expertise in frameworks like React, Node.js, and
-        Three.js. I'm a quick learner and collaborate closely with clients to
-        create efficient, scalable, and user-friendly solutions that solve
-        real-world problems. Let's work together to bring your ideas to life!
+        I'm a passionate React Native developer with over a year of experience
+        building and optimizing mobile applications. I specialize in creating
+        fast, scalable, and user-friendly apps using React Native and Node.js. I
+        enjoy solving real-world problems, fixing complex bugs, and implementing
+        real-time features like chat using Firebase and WebSockets. Let's turn
+        your vision into a powerful mobile experience!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap gap-10">
