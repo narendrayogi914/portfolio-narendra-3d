@@ -33,7 +33,7 @@ const Contact = () => {
     
     // Ensure these keys match your EmailJS template keys
     emailjs.send(
-      'service_39g46m4',    // Your EmailJS service ID
+      'service_8bhbh1j',    // Your EmailJS service ID
       'template_1iphxg5',   // Your EmailJS template ID
       {
         name: form.name,    // Should match the EmailJS template variable

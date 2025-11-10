@@ -31,6 +31,9 @@ import tripguide from "./tripguide.png";
 import Netflix from "./netflix.png";
 import Anydiscount from "./anydiscount.png";
 import PortFolio from "./portfolio.png";
+import Server from './server.png'
+import Automation from './future-technology.png'
+import Premad from './premad.png'
 export {
   logo,
   backend,
@@ -63,4 +66,7 @@ export {
   tripguide,
   PortFolio,
   mobileApp,
+  Server, 
+  Automation, 
+  Premad
 };

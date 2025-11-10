@@ -70,13 +70,17 @@ const Works = () => {
 
       </motion.div>
       <div className="w-full flex">
-        <motion.p
-        variants={fadeIn("","",0.1, 1)}
-        className='mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]'
-        >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae totam quia, atque provident necessitatibus nostrum, animi a eveniet, sed ducimus voluptatem voluptates suscipit. Pariatur assumenda labore hic possimus! Molestias expedita tempore enim, sit laboriosam commodi!
-          
-        </motion.p>
+     <motion.p
+  variants={fadeIn("", "", 0.1, 1)}
+  className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]"
+>
+  A modern mobile application built using React Native and Node.js,
+  focused on performance, scalability, and clean UI. I handled end-to-end
+  development, from integrating APIs and real-time chat to fixing bugs
+  and improving user experience. This project showcases my ability to
+  deliver complete, production-ready apps.
+</motion.p>
+
 
       </div>
       <div className="flex flex-wrap gap-7 mt-20">

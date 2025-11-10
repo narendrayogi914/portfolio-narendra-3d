@@ -18,6 +18,9 @@ import {
   Anydiscount,
   PortFolio,
   mobileApp,
+  Server,
+  Automation,
+  Premad,
 } from "../assets";
 
 export const navLinks = [
@@ -37,13 +40,21 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
-    icon: web,
+    title: "Mobile App Development ",
+    icon: mobileApp,
+  },
+  {
+    title: "Backend Development",
+    icon: Server,
+  },
+  {
+    title: "Automation Swervices using n8n",
+    icon: Automation,
   },
 
   {
-    title: "Mobile App Developer ",
-    icon: mobileApp,
+    title: "Web Development",
+    icon: web,
   },
 ];
 
@@ -78,10 +89,10 @@ const technologies = [
     name: "MongoDB",
     icon: mongodb,
   },
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
+  // {
+  //   name: "Three JS",
+  //   icon: threejs,
+  // },
   {
     name: "git",
     icon: git,
@@ -90,30 +101,17 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Self",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    title: "React Native Developer",
+    company_name: "Premad Software Solutions",
+    icon: Premad,
+    iconBg: "#FFFFFF",
+    date: "January 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-
-  {
-    title: "Web Developer",
-    company_name: "Self",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developing and maintaining high-performance mobile applications using React Native and JavaScript (TypeScript).",
+      "Collaborating with UI/UX designers and backend teams to build smooth, scalable, and user-friendly experiences.",
+      "Implementing real-time features such as chat, notifications, and data synchronization using Firebase and WebSockets.",
+      "Debugging, optimizing performance, and improving app reliability across Android and iOS platforms.",
+      "Integrating REST APIs and third-party services like Razorpay, Google Fit, and Firebase for enhanced app functionality.",
     ],
   },
 ];
@@ -147,8 +145,8 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Animated PortFolio ",
-    description: "Portfolio That  describe the deatils about myself ",
+    name: "Kiyyex ",
+    description: " Kiyyex – All-in-One Management App for PGs, Libraries & Gyms Kiyyex is a powerful, flexible management app designed for PG (Paying Guest) owners, Library managers, and Gym owners. Whether you run one location or multiple branches, Kiyyex helps you manage customers, staff, payments, and operations—all from your phone ",
     tags: [
       {
         name: "HTML",
@@ -165,11 +163,11 @@ const projects = [
     ],
     image: PortFolio,
     source_code_link:
-      "https://github.com/narendrayogi914/narendra_portfolio/tree/master",
+      "https://play.google.com/store/apps/details?id=com.kiyyex",
   },
   {
-    name: " Netflix Website Clone ",
-    description: "This is a  Poroject of cloning the Netflix Home Page UI",
+    name: " MError: Mental wellbeing ",
+    description: "Discover Yourself with MError – Self-Awareness & Growth Ever felt lost, overwhelmed, or unsure about your emotions and decisions? MError helps you explore your mind, understand your emotions, and improve self-awareness—all in a fun and interactive way! ✨: Swipe-Based Personality & Self-Discovery Tests – Engage with assessments designed to uncover insights about your emotions, decision-making, confidence, and more.",
     tags: [
       {
         name: "HTML",
@@ -185,7 +183,7 @@ const projects = [
       },
     ],
     image: Netflix,
-    source_code_link: "https://github.com/narendrayogi914/Netflix-clone",
+    source_code_link: "https://play.google.com/store/apps/details?id=com.merrorhealth",
   },
   {
     name: "AnyDiscount Website Clone ",
